@@ -1,0 +1,17 @@
+current directory: /Users/keitahagizaki/blog-app/path/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/keitahagizaki/.rbenv/versions/2.6.5/bin/ruby -I /Users/keitahagizaki/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200827-15563-n7r1xk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/keitahagizaki/blog-app/path/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/keitahagizaki/blog-app/path/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/keitahagizaki/blog-app/path/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200827-15563-w5qp6u/skiptrace/internal
